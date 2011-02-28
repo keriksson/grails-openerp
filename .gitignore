@@ -1,0 +1,13 @@
+out/
+target/
+test/reports
+lib/build
+build/
+web-app/
+plugin.xml
+*.log
+*.zip
+
+.classpath
+.project
+.settings
