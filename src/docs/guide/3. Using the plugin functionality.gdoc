@@ -1,0 +1,13 @@
+It is very easy to use the plugin functionality. We only have to add the @\@ClientSession@ annotation to every method where we need to access the configured OpenERP instance/db. Within the methow, we use the @\ClientSessionHolder@ to perform our read or write operations accordingly, like: 
+
+{code}
+class ClientSessionTestService {
+    @ClientSession
+    def readPartner(partner_id) {
+        return ClientSessionHolder.exec('res.partner', 'read', [partner_id], [])
+    }
+}
+{code}
+
+The plugin will automatically log i to the instance, using the configured username and password, and afterwards end the session created. 
+

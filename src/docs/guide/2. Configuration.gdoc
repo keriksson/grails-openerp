@@ -1,0 +1,14 @@
+The plugin must be configured with options which all may be expressed in @grails-app/conf/Config.groovy@. A basic configuration might look something like this:
+
+{code}
+// grails-app/conf/Config.groovy
+openerp {
+    baseurl = 'http://localhost:8069/xmlrpc'
+    db = 'testdb'
+    usr = 'testuser'
+    pwd = 'testpwd'
+}
+{code}
+
+Those are settings which are necessary in order for the plugin to be able to connect to and communicate with a OpenERP instance.
+

@@ -1,0 +1,7 @@
+OpenERP is a flexible, modular and innovative open-source ERP platform, which allows businesses to customize their interface and choose from a suite of business applications including Project Management, Human Resources, Financial Management, CRM and more. OpenERP is a based on a client/server architecture. The server and the client(s) communicate using the XML-RPC protocol. More information on OpenERP itself is available at [openerp.com|http://openerp.com/].
+
+The Grails OpenERP plugin simplifies integration with the platform over the XML-RPC interface, which allows external access to the complete set of data and functionality. 
+
+h4. Release History
+* March 1, 2011
+** initial 0.1 release

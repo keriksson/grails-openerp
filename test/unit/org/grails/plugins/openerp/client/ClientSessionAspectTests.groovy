@@ -19,10 +19,10 @@ class ClientSessionAspectTests extends GrailsUnitTestCase {
         mockLogging(OpenERPClientService, true)
 
         mockConfig """
-            openerp.baseurl = 'http://smarterp.zoirosit.de:8069/xmlrpc'
-            openerp.db = 'eaitest'
-            openerp.usr = 'admin'
-            openerp.pwd = 'stadion'
+            openerp.baseurl = 'http://localhost:8069/xmlrpc'
+            openerp.db = 'testdb'
+            openerp.usr = 'testuser'
+            openerp.pwd = 'testpwd'
         """
 
 		def bb = new BeanBuilder()
