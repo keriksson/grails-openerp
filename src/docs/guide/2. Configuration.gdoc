@@ -1,4 +1,4 @@
-The plugin must be configured with options which all may be expressed in @grails-app/conf/Config.groovy@. A basic configuration might look something like this:
+The plugin must be configured with options which all may be expressed in @grails-app/conf/Config.groovy@. A basic configuration looks like this:
 
 {code}
 // grails-app/conf/Config.groovy
@@ -10,5 +10,5 @@ openerp {
 }
 {code}
 
-Those are settings which are necessary in order for the plugin to be able to connect to and communicate with a OpenERP instance.
+Those are settings which are necessary in order for the plugin to be able to connect to and communicate with an OpenERP instance.
 
