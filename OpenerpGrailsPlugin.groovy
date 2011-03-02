@@ -13,16 +13,26 @@ class OpenerpGrailsPlugin {
             "grails-app/views/error.gsp"
     ]
 
+    def loadAfter = ['services']
+    
+    def license = "APACHE"
+    def organization = [ name: "openfellas", url: "http://openfellas.com/" ]
+    def developers = [ [ name: "Kristofer Eriksson", email: "kristofer.erikssonopenfellas.com" ] ]
+    def issueManagement = [ system: "JIRA", url: "http://jira.codehaus.org/browse/GRAILSPLUGINS" ]
+    def scm = [ url: "https://github.com/keriksson/grails-openerp" ]
+    
     def author = "Kristofer Eriksson"
     def authorEmail = "kristofer.eriksson@openfellas.com"
-    def title = "Openerp plugin"
-    def description = '''\\
-The plugin creates a openerp client...
-'''
-
+    def title = "OpenERP"
+    
     // URL to the plugin's documentation
     def documentation = "http://grails.org/plugin/openerp"
+    
+    def description = '''\\
+The Grails OpenERP plugin simplifies integration with the platform over the XML-RPC interface, which allows external access to the complete set of data and functionality.
+'''
 
+    
     def doWithWebDescriptor = { xml ->
     }
 
