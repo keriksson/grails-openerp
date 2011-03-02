@@ -1,6 +1,8 @@
 import grails.spring.*
 import org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator
 
+import org.grails.plugins.openerp.client.*
+
 class OpenerpGrailsPlugin {
     // the plugin version
     def version = "0.1"
